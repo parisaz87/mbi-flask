@@ -10,6 +10,7 @@ from .decorators import requires_login
 
 mod = Blueprint('reporting', __name__, url_prefix='/reporting')
 
+# This is a test change
 
 @mod.before_request
 def before_request():
